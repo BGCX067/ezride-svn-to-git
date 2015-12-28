@@ -1,0 +1,22 @@
+{% extends "site/base.html" %}
+
+{% block title %}Rotas{% endblock %} 
+
+{% if user.is_active %}
+{% block content %}
+	{% if subgraphs %}
+		<h1>Selecione uma rota para visualizar, ou crie uma nova:</h1>
+    	<ul>
+    	{% for subgraph in subgraphs %}
+        	<li><a href="/graphs/{{ subgraph.graph_id }}/detail/{{ subgraph.id }}/">{{ subgraph.name }}</a></li>        	
+    	{% endfor %}    	
+    	</ul>    	    	
+	{% else %}
+    	<p>Nenhuma rota cadastrada.</p>
+	{% endif %}
+{% endblock %}
+{% endif %}
+
+{% block content-related %}
+<p><a href="/graphs/{{ graph_id }}/create/">Criar Rota</a></p>
+{% endblock %}

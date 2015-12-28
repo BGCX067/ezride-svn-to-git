@@ -1,0 +1,40 @@
+{% extends "site/base.html" %}
+
+<h1>Editar Rota</h1>
+
+{% if error_message %}
+<p>
+	<strong>{{ error_message }}</strong>
+</p>
+{% endif %} 
+{% block content %} 
+{% if user.is_active %}
+<div id="graph"></div>
+<script>
+	var svg;
+	head.ready(function() {
+		svg = loadSVG($('#graph_id').val(), $('#subgraph_id').val());
+		graphHover(svg);	
+	});
+	
+	function set_user(user_id) {
+		$('#id_user').val(user_id);
+		$('#id_user').hide();	
+	}
+
+	
+</script>
+<form method="POST" action="">
+	{% csrf_token %}	
+	{{ form.as_p }}        
+	<input type="submit" name="submit" value="Atualizar Rota" id="submit">
+</form>
+{% else %}
+<p>É necessário estar cadastrado e com a conta ativada para poder editar rotas.</p>
+{% endif %} 
+{% endblock %} 
+{% block content-related %} 
+<input type="text" id="user_id" hidden="true" value="{{ user.id }}">
+<input type="text" id="graph_id" hidden="true" value="{{ graph_id }}">
+<input type="text" id="subgraph_id" hidden="true" value="{{ subgraph_id }}">
+{% endblock %}

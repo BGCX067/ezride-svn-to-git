@@ -1,0 +1,14 @@
+{% extends "site/base.html" %}
+
+{% block title %}Ativação Conta{% endblock %}
+
+{% block content %}
+  <h1>Ativação de conta.</h1>
+  {% load humanize %}
+  {% if account %}
+    <p>Obrigado por se cadastrar! Agora você pode <a href="/accounts/login/">acessar</a> o sistema.</p>
+  {% else %}
+    <p>Desculpe, mas a ativação falhou. Ou o link de ativação está incorreto, ou a chave de ativação expirou;
+    chaves de ativação são válidas apenas por {{ expiration_days|apnumber }} dias após o registro.</p>
+  {% endif %}
+{% endblock %}

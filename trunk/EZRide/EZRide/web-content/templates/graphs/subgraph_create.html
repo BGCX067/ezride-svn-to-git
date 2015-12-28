@@ -1,0 +1,41 @@
+{% extends "site/base.html" %}
+
+<h1>Criar rota</h1>
+
+{% if error_message %}
+<p>
+	<strong>{{ error_message }}</strong>
+</p>
+{% endif %} {% block content %} {% if user.is_active %}
+<div id="graph"></div>
+<script>
+	var svg;
+	head.ready(function() {
+		loadSVG($('#graph_id').val(), 0);
+		svg = $('#graph').svg('get');		
+	});	
+</script>
+<form method="POST" action="">
+	{% csrf_token %}
+	<p>
+		<label for="id_name">Nome Rota:</label> {% if form.name.errors %}
+	<p class="errors">{{ form.name.errors.as_text }}</p>
+	{% endif %} {{ form.name }}
+	</p>
+	<p>
+		<label for="id_nodes">Bairros:</label> {% if form.nodes.errors %}
+	<p class="errors">{{ form.nodes.errors.as_text }}</p>
+	{% endif %} {{ form.nodes }}
+	</p>
+	{% if form.errors %}
+	<p class="errors">{{ form.errors.as_text }}</p>
+	{% endif %} <input type="submit" name="submit" value="Criar Rota"
+		id="submit">
+</form>
+
+{% else %}
+<p>É necessário estar cadastrado e com a conta ativada para poder
+	criar rotas.</p>
+{% endif %} {% endblock %} {% block content-related %}
+<input type="text" id="graph_id" hidden="true" value="{{ graph_id }}">
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "site/base.html" %}
+
+<h1>Detalhes Rota</h1>
+
+{% if error_message %}
+<p>
+	<strong>{{ error_message }}</strong>
+</p>
+{% endif %} {% block content %}
+
+<div id="graph"></div>
+<script>
+	var svg;
+	head.ready(function() {
+		svg = loadSVG($('#graph_id').val(), $('#subgraph_id').val());
+		graphHover(svg);
+	});
+
+	function set_user(user_id) {
+		$('#id_user').val(user_id);
+		$('#id_user').hide();
+	}
+</script>
+
+<p>
+	<strong>Nome:</strong><br>{{ subgraph.name }}
+</p>
+<p>
+	<strong>Bairros:</strong><br>
+</p>
+<ul>
+	{% for node in nodes %}
+	<li>
+		<p>{{ node.label }}</p>
+	</li> 
+	{% endfor %}
+</ul>
+{% endblock %} 
+{% block content-related %} 
+<input type="text" id="user_id" hidden="true" value="{{ user.id }}">
+<input type="text" id="graph_id" hidden="true" value="{{ subgraph.graph.id }}">
+<input type="text" id="subgraph_id" hidden="true" value="{{ subgraph.id }}">
+{% endblock %}

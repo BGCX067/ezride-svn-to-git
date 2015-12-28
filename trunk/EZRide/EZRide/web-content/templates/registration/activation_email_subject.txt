@@ -1,0 +1,1 @@
+Ative sua conta em CCMEventos.com - você tem {{ expiration_days }} dias!

@@ -1,0 +1,905 @@
+graph saocarlos {
+
+//Node1 [label="Hello, World!"]
+
+/* BAIRROS DE SÃO CARLOS */
+
+/* VÉRTICES */
+
+Node1   [label="(Dahma)"]
+Node2   [label="(Res.Samambaia)"]
+Node3   [label="(Embare)"]
+Node4   [label="Arace"]
+Node5   [label="(Montreal)"]
+Node6   [label="(Pq Ferh)"]
+Node7   [label="(Res. Val Parariso)"]
+Node8   [label="Agua Vermelha"]
+Node9   [label="Varjao"]
+Node10  [label="Americo Margarido"]
+Node11  [label="Pq Sabara"]
+Node12  [label="Arnold Schimdt"]
+Node13  [label="Cidade Jardim"]
+Node14  [label="Santa Paula"]
+Node15  [label="Tabayaci"]
+Node16  [label="Jd Luftalla"]
+Node17  [label="Azuville"]
+Node18  [label="Jd de Cresci"]
+Node19  [label="Jd Dona Francisca"]
+Node20  [label="Boa Vista 2"]
+Node21  [label="Vila Carmen"]
+Node22  [label="Jd Pacaembu"]
+Node23  [label="Jd Sta Tereza"]
+Node24  [label="Boa Vista 3"]
+Node25  [label="Jd Medeiros"]
+Node26  [label="Boa Vista 4"]
+Node27  [label="Botafogo"]
+Node28  [label="Jd Bicao"]
+Node29  [label="Castelo Branco"]
+Node30  [label="Centro"]
+Node31  [label="Vila Nery"]
+Node32  [label="Vila Santo Antonio"]
+Node33  [label="Tijuco Preto"]
+Node34  [label="Gde Vl Prado"]
+Node35  [label="Vila Pureza"]
+Node36  [label="Jd Macarenco"]
+Node37  [label="Jd Sao Carlos"]
+Node38  [label="Vila Monteiro"]
+Node39  [label="Vila Elizabeth"]
+Node40  [label="Ch Sao Caetano"]
+Node41  [label="Vila Sao Jose"]
+Node42  [label="Ch. Monte Carlo"]
+Node43  [label="M.S Faga"]
+Node44  [label="Res Itamarati"]
+Node45  [label="Cidade Aracy"]
+Node46  [label="Antenor Garcia"]
+Node47  [label="Vila Celina"]
+Node48  [label="Jd Paulistano"]
+Node49  [label="Jd Paulista"]
+Node50  [label="Jd Cruzeiro do Sul"]
+Node51  [label="Vila Palmares"]
+Node52  [label="Jd Acapulco"]
+Node53  [label="Sao Carlos 1,2,3,5,7"]
+Node54  [label="Jd Bandeirantes"]
+Node55  [label="Santa Felicia"]
+Node56  [label="Jd Beatriz"]
+Node57  [label="Redencao"]
+Node58  [label="Jd das Torres"]
+Node59  [label="Jd Brasil"]
+Node60  [label="Jd Nossa Senhora Aparecida"]
+Node61  [label="Jd Cardinalli"]
+Node62  [label="Pq Anhembi"]
+Node63  [label="Jd Citelli"]
+Node64  [label="Jd Centenario"]
+Node65  [label="Jd Nova Santa Paula"]
+Node66  [label="Pq Santa Marta"]
+Node67  [label="Jd Hikari"]
+Node68  [label="Vila Monte Carlo"]
+Node69  [label="Vila Morumbi"]
+Node70  [label="Jd dos Coqueiros"]
+Node71  [label="Astolfo L Prado"]
+Node72  [label="Jd Sta Maria 2"]
+Node73  [label="Jd Gilbertoni"]
+Node74  [label="Recreio dos Bandeirantes"]
+Node75  [label="Jd Gonzaga"]
+Node76  [label="Jd Ipanema"]
+Node77  [label="Jd Maracana"]
+Node78  [label="Jd Novo Horizonte"]
+Node79  [label="Mirante Bela Vista"]
+Node80  [label="Jd Munique"]
+Node81  [label="Jd Nova Sao Carlos"]
+Node82  [label="Jd Ricetti"]
+Node83  [label="Portal do Sol"]
+Node84  [label="Jd Paraiso"]
+Node85  [label="Pq Paraiso"]
+Node86  [label="Jd Alvorada"]
+Node87  [label="Pq Delta"]
+Node88  [label="Vila Pq Industrial"]
+Node89  [label="Jd Santa Helena"]
+Node90  [label="Vila Marina"]
+Node91  [label="Pq Estancia Suica"]
+Node92  [label="Jd Sao Gabriel"]
+Node93  [label="Jd Sao Joao Batista"]
+Node94  [label="Pq Nova Estancia"]
+Node95  [label="Jd Sao Paulo"]
+Node96  [label="Vila Alpes"]
+Node97  [label="Rec. Sao Judas Tadeu"]
+Node98  [label="Vila Irene"]
+Node99  [label="Jd Sao Rafael"]
+Node100 [label="Pq Douradinho"]
+Node101 [label="Jd Sta Maria"]
+Node102 [label="Sao Carlos 8"]
+Node103 [label="Jd Tangara"]
+Node104 [label="Jockey Clube"]
+Node105 [label="Ufscar"]
+Node106 [label="Planalto Paraiso"]
+Node107 [label="Pq Faber 2"]
+Node108 [label="Vila Costa do Sol"]
+Node109 [label="Pq Faber 1"]
+Node110 [label="Swiss Park"]
+Node111 [label="Sta Maria1"]
+Node112 [label="Pq Primavera"]
+Node113 [label="Pq dos Timboris"]
+Node114 [label="Rancho Velho"]
+Node115 [label="Sao Carlos 6"]
+Node116 [label="Santa Angelina"]
+Node117 [label="USP Campus 2"]
+Node118 [label="Romeu Tortorelli"]
+Node119 [label="Santa Monica"]
+Node120 [label="Jd Bethania"]
+Node121 [label="Vila Jacobucci"]
+Node122 [label="Jd Real"]
+Node123 [label="Vila Marcelino"]
+Node124 [label="Vila Faria"]
+Node125 [label="Vila Luftalla"]
+Node126 [label="Vila Isabel"]
+Node127 [label="Pq Sao Jose"]
+Node128 [label="Vila Vista Alegre"]
+Node129 [label="Vila N S de Fatima"]
+Node130 [label="Vila Madre Cabrini"]
+Node131 [label="Vila Conceicao"]
+Node132 [label="Vila Marques"]
+Node133 [label="Vila Presidente Collor"]
+
+/* ARESTAS PONDERADAS */
+
+/* Node */
+Node1 -- Node2 [weight=6.0]   
+Node1 -- Node104 [weight=4.0]   
+Node1 -- Node105 [weight=2.0]
+
+/* Node */
+//Node2 -- Node1 [weight=6.0]   
+Node2 -- Node9 [weight=6.0]   
+Node2 -- Node105 [weight=7.0]
+
+/* Node */
+Node3 -- Node4 [weight=3.0]   
+Node3 -- Node6 [weight=5.0]
+
+/* Node */
+//Node4 -- Node3 [weight=3.0]
+
+/* Node */
+Node5 -- Node6 [weight=7.0]   
+Node5 -- Node76 [weight=3.0]
+
+/* Node */
+//Node6 -- Node3 [weight=5.0]   
+//Node6 -- Node5 [weight=7.0]
+
+/* Node */
+Node7 -- Node8 [weight=3.0]   
+Node7 -- Node9 [weight=1.0]
+
+/* Node */
+//Node8 -- Node7 [weight=3.0]   
+Node8 -- Node9 [weight=3.0]
+
+/* Node */
+//Node9 -- Node2 [weight=6.0]   
+//Node9 -- Node7 [weight=1.0]   
+//Node9 -- Node8 [weight=3.0]
+
+/* Node */
+Node10 -- Node11 [weight=3.0]   
+Node10 -- Node112 [weight=2.0]  
+Node10 -- Node129 [weight=1.0]
+
+/* Node */
+//Node11 -- Node10 [weight=3.0]   
+Node11 -- Node103 [weight=5.0]   
+Node11 -- Node113 [weight=5.0]
+
+/* Node */
+Node12 -- Node13 [weight=4.0]   
+Node12 -- Node14 [weight=4.0]   
+Node12 -- Node15 [weight=5.0]   
+Node12 -- Node16 [weight=6.0]   
+Node12 -- Node30 [weight=4.0]   
+Node12 -- Node35 [weight=4.0]
+
+/* Node */
+//Node13 -- Node12 [weight=4.0]   
+Node13 -- Node16 [weight=3.0]   
+Node13 -- Node47 [weight=6.0]   
+Node13 -- Node48 [weight=7.0]
+
+/* Node */
+//Node14 -- Node12 [weight=4.0]   
+Node14 -- Node15 [weight=4.0]   
+Node14 -- Node54 [weight=4.0]   
+Node14 -- Node64 [weight=4.0]   
+Node14 -- Node65 [weight=1.0]
+
+/* Node */
+//Node15 -- Node12 [weight=5.0]   
+//Node15 -- Node14 [weight=4.0]   
+Node15 -- Node35 [weight=3.0]   
+Node15 -- Node54 [weight=6.0]   
+Node15 -- Node84 [weight=7.0]
+
+/* Node */
+//Node16 -- Node12 [weight=6.0]   
+//Node16 -- Node13 [weight=3.0]   
+Node16 -- Node30 [weight=2.0]
+
+/* Node */
+Node17 -- Node18 [weight=3.0]   
+Node17 -- Node19 [weight=5.0]   
+Node17 -- Node29 [weight=3.0]   
+Node17 -- Node83 [weight=6.0]
+
+/* Node */
+//Node18 -- Node17 [weight=3.0]   
+Node18 -- Node19 [weight=1.0]
+
+/* Node */
+//Node19 -- Node17 [weight=5.0]   
+//Node19 -- Node18 [weight=1.0]
+
+/* Node */
+Node20 -- Node21 [weight=1.0]   
+Node20 -- Node22 [weight=2.0]   
+Node20 -- Node23 [weight=3.0]   
+Node20 -- Node24 [weight=7.0]   
+Node20 -- Node57 [weight=5.0]
+
+/* Node */
+//Node21 -- Node20 [weight=1.0]   
+Node21 -- Node26 [weight=5.0]   
+Node21 -- Node34 [weight=4.0]
+
+/* Node */
+//Node22 -- Node20 [weight=2.0]   
+Node22 -- Node23 [weight=5.0]   
+Node22 -- Node34 [weight=7.0]   
+Node22 -- Node50 [weight=6.0]   
+Node22 -- Node75 [weight=7.0]
+
+/* Node */
+//Node23 -- Node20 [weight=3.0]   
+//Node23 -- Node22 [weight=5.0]
+
+/* Node */
+//Node24 -- Node20 [weight=7.0]   
+Node24 -- Node25 [weight=2.0]   
+Node24 -- Node26 [weight=2.0]
+
+/* Node */
+//Node25 -- Node24 [weight=2.0]   
+Node25 -- Node56 [weight=2.0]   
+Node25 -- Node57 [weight=5.0]  
+Node25 -- Node79 [weight=3.0]
+
+/* Node */
+//Node26 -- Node21 [weight=5.0]   
+//Node26 -- Node24 [weight=2.0]   
+Node26 -- Node58 [weight=6.0]
+
+/* Node */
+Node27 -- Node28 [weight=7.0]   
+Node27 -- Node34 [weight=2.0]  
+Node27 -- Node49 [weight=5.0]   
+Node27 -- Node74 [weight=4.0]
+
+/* Node */
+//Node28 -- Node27 [weight=7.0]   
+Node28 -- Node58 [weight=7.0]
+
+/* Node */
+//Node29 -- Node17 [weight=3.0]   
+Node29 -- Node81 [weight=6.0]   
+Node29 -- Node83 [weight=7.0]
+
+/* Node */
+//Node30 -- Node12 [weight=4.0]   
+//Node30 -- Node16 [weight=2.0]   
+Node30 -- Node31 [weight=1.0]   
+Node30 -- Node32 [weight=1.0]   
+Node30 -- Node33 [weight=1.0]   
+Node30 -- Node34 [weight=2.0]   
+Node30 -- Node35 [weight=2.0]   
+Node30 -- Node36 [weight=2.0]   
+Node30 -- Node37 [weight=3.0]   
+Node30 -- Node38 [weight=5.0]   
+Node30 -- Node39 [weight=6.0]
+
+/* Node */
+//Node31 -- Node30 [weight=1.0]   
+Node31 -- Node32 [weight=5.0]   
+Node31 -- Node39 [weight=4.0]  
+Node31 -- Node40 [weight=7.0]   
+Node31 -- Node59 [weight=6.0]   
+Node31 -- Node124 [weight=2.0]   
+Node31 -- Node128 [weight=6.0]   
+Node31 -- Node132 [weight=7.0]
+
+/* Node */
+//Node32 -- Node30 [weight=1.0]   
+//Node32 -- Node31 [weight=5.0]   
+Node32 -- Node38 [weight=7.0]   
+Node32 -- Node59 [weight=5.0]   
+Node32 -- Node82 [weight=7.0]
+
+/* Node */
+//Node33 -- Node30 [weight=1.0]   
+Node33 -- Node36 [weight=6.0]   
+Node33 -- Node47 [weight=6.0]   
+Node33 -- Node92 [weight=5.0]   
+Node33 -- Node108 [weight=5.0]
+
+/* Node */
+//Node34 -- Node21 [weight=4.0]   
+//Node34 -- Node22 [weight=7.0]   
+//Node34 -- Node27 [weight=2.0]   
+//Node34 -- Node30 [weight=2.0]   
+Node34 -- Node37 [weight=5.0]   
+Node34 -- Node49 [weight=1.0]   
+Node34 -- Node50 [weight=3.0]   
+Node34 -- Node51 [weight=7.0]
+
+/* Node */
+//Node35 -- Node12 [weight=4.0]   
+//Node35 -- Node15 [weight=3.0]   
+//Node35 -- Node30 [weight=2.0]   
+Node35 -- Node84 [weight=2.0]   
+Node35 -- Node119 [weight=7.0]   
+Node35 -- Node120 [weight=2.0]
+
+/* Node */
+//Node36 -- Node30 [weight=2.0]   
+//Node36 -- Node33 [weight=6.0]   
+Node36 -- Node39 [weight=1.0]
+
+/* Node */
+//Node37 -- Node30 [weight=3.0]   
+//Node37 -- Node34 [weight=5.0]   
+Node37 -- Node49 [weight=7.0]   
+Node37 -- Node73 [weight=3.0]
+
+/* Node */
+//Node38 -- Node30 [weight=5.0]   
+//Node38 -- Node32 [weight=7.0]   
+Node38 -- Node82 [weight=1.0]   
+Node38 -- Node123 [weight=2.0]
+
+/* Node */
+//Node39 -- Node30 [weight=6.0]   
+//Node39 -- Node31 [weight=4.0]   
+//Node39 -- Node36 [weight=1.0]   
+Node39 -- Node108 [weight=6.0]
+
+/* Node */
+//Node40 -- Node31 [weight=7.0]   
+Node40 -- Node41 [weight=6.0]   
+Node40 -- Node108 [weight=6.0]   
+Node40 -- Node128 [weight=4.0]
+
+/* Node */
+//Node41 -- Node40 [weight=6.0]   
+Node41 -- Node93 [weight=1.0]   
+Node41 -- Node94 [weight=4.0]   
+Node41 -- Node111 [weight=6.0]   
+Node41 -- Node121 [weight=5.0]   
+Node41 -- Node128 [weight=6.0]
+
+/* Node */
+Node42 -- Node43 [weight=4.0]   
+Node42 -- Node44 [weight=7.0]   
+Node42 -- Node100 [weight=2.0]   
+Node42 -- Node103 [weight=4.0]
+
+/* Node */
+//Node43 -- Node42 [weight=4.0]   
+Node43 -- Node44 [weight=5.0]   
+Node43 -- Node70 [weight=3.0]   
+Node43 -- Node71 [weight=4.0]   
+Node43 -- Node80 [weight=4.0]   
+Node43 -- Node103 [weight=3.0]
+
+/* Node */
+//Node44 -- Node42 [weight=7.0]   
+//Node44 -- Node43 [weight=5.0]   
+Node44 -- Node71 [weight=2.0]
+
+/* Node */
+Node45 -- Node46 [weight=1.0]   
+Node45 -- Node130 [weight=1.0]   
+Node45 -- Node133 [weight=2.0]
+
+/* Node */
+//Node46 -- Node45 [weight=1.0]
+
+/* Node */
+//Node47 -- Node13 [weight=6.0]   
+//Node47 -- Node33 [weight=6.0]   
+Node47 -- Node48 [weight=2.0]   
+Node47 -- Node87 [weight=2.0]   
+Node47 -- Node90 [weight=7.0]   
+Node47 -- Node105 [weight=7.0]
+
+/* Node */
+//Node48 -- Node13 [weight=7.0]   
+//Node48 -- Node47 [weight=2.0]   
+Node48 -- Node65 [weight=4.0]   
+Node48 -- Node67 [weight=1.0]   
+Node48 -- Node87 [weight=1.0]   
+Node48 -- Node88 [weight=2.0]
+
+/* Node */
+//Node49 -- Node27 [weight=5.0]   
+//Node49 -- Node34 [weight=1.0]   
+//Node49 -- Node37 [weight=7.0]   
+Node49 -- Node73 [weight=4.0]   
+Node49 -- Node74 [weight=4.0]
+
+/* Node */
+//Node50 -- Node22 [weight=6.0]   
+//Node50 -- Node34 [weight=3.0]   
+Node50 -- Node68 [weight=1.0]   
+Node50 -- Node69 [weight=5.0]   
+Node50 -- Node75 [weight=6.0]
+
+/* Node */
+//Node51 -- Node34 [weight=7.0]   
+Node51 -- Node125 [weight=7.0]
+
+/* Node */
+Node52 -- Node53 [weight=2.0]   
+Node52 -- Node55 [weight=1.0]   
+Node52 -- Node66 [weight=4.0]
+
+/* Node */
+//Node53 -- Node52 [weight=2.0]   
+Node53 -- Node55 [weight=4.0]   
+Node53 -- Node76 [weight=6.0]   
+Node53 -- Node116 [weight=2.0]
+
+/* Node */
+//Node54 -- Node14 [weight=4.0]   
+//Node54 -- Node15 [weight=6.0]  
+Node54 -- Node55 [weight=7.0]   
+Node54 -- Node64 [weight=1.0]   
+Node54 -- Node66 [weight=3.0]   
+Node54 -- Node85 [weight=6.0]
+
+/* Node */
+//Node55 -- Node52 [weight=1.0]   
+//Node55 -- Node53 [weight=4.0]   
+//Node55 -- Node54 [weight=7.0]   
+Node55 -- Node85 [weight=4.0]   
+Node55 -- Node106 [weight=2.0]   
+Node55 -- Node107 [weight=5.0]   
+Node55 -- Node116 [weight=4.0]   
+Node55 -- Node118 [weight=2.0]
+
+/* Node */
+//Node56 -- Node25 [weight=2.0]   
+Node56 -- Node57 [weight=6.0]   
+Node56 -- Node79 [weight=6.0]
+
+/* Node */
+//Node57 -- Node20 [weight=5.0]   
+//Node57 -- Node25 [weight=5.0]   
+//Node57 -- Node56 [weight=6.0]
+
+/* Node */
+//Node58 -- Node26 [weight=6.0]   
+//Node58 -- Node28 [weight=7.0]
+
+/* Node */
+//Node59 -- Node31 [weight=6.0]   
+//Node59 -- Node32 [weight=5.0]   
+Node59 -- Node60 [weight=2.0]   
+Node59 -- Node61 [weight=3.0]   
+Node59 -- Node124 [weight=6.0]
+
+/* Node */
+//Node60 -- Node59 [weight=2.0]   
+Node60 -- Node61 [weight=6.0]   
+Node60 -- Node82 [weight=2.0]   
+Node60 -- Node83 [weight=3.0]
+
+/* Node */
+//Node61 -- Node59 [weight=3.0]   
+//Node61 -- Node60 [weight=6.0]   
+Node61 -- Node62 [weight=2.0]   
+Node61 -- Node63 [weight=7.0]
+
+/* Node */
+//Node62 -- Node61 [weight=2.0]   
+Node62 -- Node63 [weight=1.0]   
+Node62 -- Node114 [weight=5.0]
+
+/* Node */
+//Node63 -- Node61 [weight=7.0]   
+//Node63 -- Node62 [weight=1.0]   
+Node63 -- Node114 [weight=6.0]
+
+/* Node */
+//Node64 -- Node14 [weight=4.0]   
+//Node64 -- Node54 [weight=1.0]   
+Node64 -- Node65 [weight=1.0]   
+Node64 -- Node66 [weight=3.0]   
+Node64 -- Node67 [weight=7.0]
+
+/* Node */
+//Node65 -- Node14 [weight=1.0]   
+//Node65 -- Node48 [weight=4.0]   
+//Node65 -- Node64 [weight=1.0]   
+Node65 -- Node67 [weight=4.0]
+
+/* Node */
+//Node66 -- Node52 [weight=4.0]   
+//Node66 -- Node54 [weight=3.0]   
+//Node66 -- Node64 [weight=3.0]
+
+/* Node */
+//Node67 -- Node48 [weight=1.0]   
+//Node67 -- Node64 [weight=7.0]   
+//Node67 -- Node65 [weight=4.0]
+
+/* Node */
+//Node68 -- Node50 [weight=1.0]   
+Node68 -- Node75 [weight=4.0]   
+Node68 -- Node130 [weight=7.0]   
+Node68 -- Node131 [weight=6.0]   
+Node68 -- Node133 [weight=2.0]
+
+/* Node */
+//Node69 -- Node50 [weight=5.0]   
+Node69 -- Node126 [weight=6.0]
+
+/* Node */
+//Node70 -- Node43 [weight=3.0]   
+Node70 -- Node71 [weight=1.0]   
+Node70 -- Node72 [weight=3.0]   
+Node70 -- Node80 [weight=3.0]
+
+/* Node */
+//Node71 -- Node43 [weight=4.0]   
+//Node71 -- Node44 [weight=2.0]   
+//Node71 -- Node70 [weight=1.0]   
+Node71 -- Node72 [weight=5.0]
+
+/* Node */
+//Node72 -- Node70 [weight=3.0]   
+//Node72 -- Node71 [weight=5.0]   
+Node72 -- Node80 [weight=6.0]   
+Node72 -- Node101 [weight=3.0]   
+Node72 -- Node102 [weight=2.0]
+
+/* Node */
+//Node73 -- Node37 [weight=3.0]   
+//Node73 -- Node49 [weight=4.0]   
+Node73 -- Node74 [weight=7.0]   
+Node73 -- Node119 [weight=4.0]
+
+/* Node */
+//Node74 -- Node27 [weight=4.0]   
+//Node74 -- Node49 [weight=4.0]   
+//Node74 -- Node73 [weight=7.0]   
+Node74 -- Node109 [weight=2.0]   
+Node74 -- Node115 [weight=6.0]
+
+/* Node */
+//Node75 -- Node22 [weight=7.0]   
+//Node75 -- Node50 [weight=6.0]   
+//Node75 -- Node68 [weight=4.0]
+
+/* Node */
+//Node76 -- Node5 [weight=3.0]   
+//Node76 -- Node53 [weight=6.0]   
+Node76 -- Node116 [weight=6.0]
+
+/* Node */
+Node77 -- Node78 [weight=5.0]   
+Node77 -- Node97 [weight=6.0]
+
+/* Node */
+//Node78 -- Node77 [weight=5.0]   
+Node78 -- Node97 [weight=1.0]
+
+/* Node */
+//Node79 -- Node25 [weight=3.0]   
+//Node79 -- Node56 [weight=6.0]
+
+/* Node */
+//Node80 -- Node43 [weight=4.0]   
+//Node80 -- Node70 [weight=3.0]   
+//Node80 -- Node72 [weight=6.0]   
+Node80 -- Node103 [weight=6.0]
+
+/* Node */
+//Node81 -- Node29 [weight=6.0]   
+Node81 -- Node82 [weight=3.0]   
+Node81 -- Node83 [weight=7.0]   
+Node81 -- Node96 [weight=2.0]   
+Node81 -- Node97 [weight=1.0]
+
+/* Node */
+//Node82 -- Node32 [weight=7.0]   
+//Node82 -- Node38 [weight=1.0]   
+//Node82 -- Node60 [weight=2.0]   
+//Node82 -- Node81 [weight=3.0]   
+Node82 -- Node83 [weight=3.0]   
+Node82 -- Node96 [weight=6.0]
+
+/* Node */
+//Node83 -- Node17 [weight=6.0]   
+//Node83 -- Node29 [weight=7.0]   
+//Node83 -- Node60 [weight=3.0]   
+//Node83 -- Node81 [weight=7.0]   
+//Node83 -- Node82 [weight=3.0]
+
+/* Node */
+//Node84 -- Node15 [weight=7.0]   
+//Node84 -- Node35 [weight=2.0]   
+Node84 -- Node85 [weight=2.0]   
+Node84 -- Node86 [weight=6.0]   
+Node84 -- Node119 [weight=7.0]
+
+/* Node */
+//Node85 -- Node54 [weight=6.0]   
+//Node85 -- Node55 [weight=4.0]   
+//Node85 -- Node84 [weight=2.0]   
+Node85 -- Node86 [weight=4.0]   
+Node85 -- Node106 [weight=3.0]
+
+/* Node */
+//Node86 -- Node84 [weight=6.0]   
+//Node86 -- Node85 [weight=4.0]   
+Node86 -- Node106 [weight=3.0]   
+Node86 -- Node119 [weight=6.0]
+
+/* Node */
+//Node87 -- Node47 [weight=2.0]   
+//Node87 -- Node48 [weight=1.0]   
+Node87 -- Node88 [weight=2.0]
+
+/* Node */
+//Node88 -- Node48 [weight=2.0]   
+//Node88 -- Node87 [weight=2.0]   
+Node88 -- Node104 [weight=7.0]
+
+/* Node */
+Node89 -- Node90 [weight=1.0]   
+Node89 -- Node91 [weight=5.0]   
+Node89 -- Node92 [weight=1.0]   
+Node89 -- Node105 [weight=7.0]
+
+/* Node */
+//Node90 -- Node47 [weight=7.0]   
+//Node90 -- Node89 [weight=1.0]   
+Node90 -- Node105 [weight=2.0]
+
+/* Node */
+//Node91 -- Node89 [weight=5.0]   
+Node91 -- Node92 [weight=4.0]   
+Node91 -- Node94 [weight=2.0]   
+Node91 -- Node108 [weight=5.0]
+
+/* Node */
+//Node92 -- Node33 [weight=5.0]   
+//Node92 -- Node89 [weight=1.0]   
+//Node92 -- Node91 [weight=4.0]
+
+/* Node */
+//Node93 -- Node41 [weight=1.0]   
+Node93 -- Node94 [weight=4.0]   
+Node93 -- Node108 [weight=3.0]
+
+/* Node */
+//Node94 -- Node41 [weight=4.0]   
+//Node94 -- Node91 [weight=2.0]   
+//Node94 -- Node93 [weight=4.0]   
+Node94 -- Node111 [weight=3.0]
+
+/* Node */
+Node95 -- Node96 [weight=1.0]   
+Node95 -- Node97 [weight=4.0]   
+Node95 -- Node98 [weight=7.0]   
+Node95 -- Node126 [weight=2.0]
+
+/* Node */
+//Node96 -- Node81 [weight=2.0]   
+//Node96 -- Node82 [weight=6.0]   
+//Node96 -- Node95 [weight=1.0]   
+Node96 -- Node97 [weight=1.0]   
+Node96 -- Node98 [weight=1.0]   
+Node96 -- Node123 [weight=5.0]
+
+/* Node */
+//Node97 -- Node77 [weight=6.0]   
+//Node97 -- Node78 [weight=1.0]   
+//Node97 -- Node81 [weight=1.0]   
+//Node97 -- Node95 [weight=4.0]   
+//Node97 -- Node96 [weight=1.0]
+
+/* Node */
+//Node98 -- Node95 [weight=7.0]   
+//Node98 -- Node96 [weight=1.0]   
+Node98 -- Node123 [weight=7.0]   
+Node98 -- Node125 [weight=2.0]   
+Node98 -- Node126 [weight=3.0]
+
+/* Node */
+Node99 -- Node100 [weight=2.0]   
+Node99 -- Node103 [weight=7.0]
+
+/* Node */
+//Node100 -- Node42 [weight=2.0]   
+//Node100 -- Node99 [weight=2.0]
+
+/* Node */
+//Node101 -- Node72 [weight=3.0]   
+Node101 -- Node102 [weight=1.0]   
+Node101 -- Node121 [weight=7.0]
+
+/* Node */
+//Node102 -- Node72 [weight=2.0]   
+//Node102 -- Node101 [weight=1.0]
+
+/* Node */
+//Node103 -- Node11 [weight=5.0]   
+//Node103 -- Node42 [weight=4.0]   
+//Node103 -- Node43 [weight=3.0]   
+//Node103 -- Node80 [weight=6.0]   
+//Node103 -- Node99 [weight=7.0]
+
+/* Node */
+//Node104 -- Node1 [weight=4.0]   
+//Node104 -- Node88 [weight=7.0]   
+Node104 -- Node105 [weight=6.0]
+
+/* Node */
+//Node105 -- Node1 [weight=2.0]   
+//Node105 -- Node2 [weight=7.0]   
+//Node105 -- Node47 [weight=7.0]  
+//Node105 -- Node89 [weight=7.0]   
+//Node105 -- Node90 [weight=2.0]   
+//Node105 -- Node104 [weight=6.0]
+
+/* Node */
+//Node106 -- Node55 [weight=2.0]   
+//Node106 -- Node85 [weight=3.0]   
+//Node106 -- Node86 [weight=3.0]   
+Node106 -- Node107 [weight=3.0]
+
+/* Node */
+//Node107 -- Node55 [weight=5.0]   
+//Node107 -- Node106 [weight=3.0]   
+Node107 -- Node109 [weight=1.0]
+
+/* Node */
+//Node108 -- Node33 [weight=5.0]   
+//Node108 -- Node39 [weight=6.0]   
+//Node108 -- Node40 [weight=6.0]   
+//Node108 -- Node91 [weight=5.0]   
+//Node108 -- Node93 [weight=3.0]
+
+/* Node */
+//Node109 -- Node74 [weight=2.0]   
+//Node109 -- Node107 [weight=1.0]   
+Node109 -- Node110 [weight=4.0]
+
+/* Node */
+//Node110 -- Node109 [weight=4.0]
+
+/* Node */
+//Node111 -- Node41 [weight=6.0]   
+//Node111 -- Node94 [weight=3.0]   
+Node111 -- Node121 [weight=3.0]   
+Node111 -- Node122 [weight=3.0]
+
+/* Node */
+//Node112 -- Node10 [weight=2.0]   
+Node112 -- Node129 [weight=3.0]
+
+/* Node */
+//Node113 -- Node11 [weight=5.0]
+
+/* Node */
+//Node114 -- Node62 [weight=5.0]   
+//Node114 -- Node63 [weight=6.0]   
+Node114 -- Node124 [weight=5.0]  
+Node114 -- Node128 [weight=7.0]
+
+/* Node */
+//Node115 -- Node74 [weight=6.0]
+
+/* Node */
+//Node116 -- Node53 [weight=2.0]   
+//Node116 -- Node55 [weight=4.0]   
+//Node116 -- Node76 [weight=6.0]   
+Node116 -- Node117 [weight=7.0]
+
+/* Node */
+//Node117 -- Node116 [weight=7.0]
+
+/* Node */
+//Node118 -- Node55 [weight=2.0]
+
+/* Node */
+//Node119 -- Node35 [weight=7.0]   
+//Node119 -- Node73 [weight=4.0]   
+//Node119 -- Node84 [weight=7.0]   
+//Node119 -- Node86 [weight=6.0]   
+Node119 -- Node120 [weight=7.0]
+
+/* Node */
+//Node120 -- Node35 [weight=2.0]   
+//Node120 -- Node119 [weight=7.0]
+
+/* Node */
+//Node121 -- Node41 [weight=5.0]   
+//Node121 -- Node101 [weight=7.0]   
+//Node121 -- Node111 [weight=3.0]   
+Node121 -- Node122 [weight=2.0]   
+Node121 -- Node128 [weight=1.0]   
+Node121 -- Node129 [weight=5.0]
+
+/* Node */
+//Node122 -- Node111 [weight=3.0]   
+//Node122 -- Node121 [weight=2.0]
+
+/* Node */
+//Node123 -- Node38 [weight=2.0]   
+//Node123 -- Node96 [weight=5.0]   
+//Node123 -- Node98 [weight=7.0]   
+Node123 -- Node125 [weight=2.0]
+
+/* Node */
+//Node124 -- Node31 [weight=2.0]   
+//Node124 -- Node59 [weight=6.0]   
+//Node124 -- Node114 [weight=5.0]   
+Node124 -- Node132 [weight=6.0]
+
+/* Node */
+//Node125 -- Node51 [weight=7.0]   
+//Node125 -- Node98 [weight=2.0]   
+//Node125 -- Node123 [weight=2.0]   
+Node125 -- Node126 [weight=1.0]
+
+/* Node */
+//Node126 -- Node69 [weight=6.0]   
+//Node126 -- Node95 [weight=2.0]   
+//Node126 -- Node98 [weight=3.0]   
+//Node126 -- Node125 [weight=1.0]   
+Node126 -- Node127 [weight=5.0]
+
+/* Node */
+//Node127 -- Node126 [weight=5.0]
+
+/* Node */
+//Node128 -- Node31 [weight=6.0]   
+//Node128 -- Node40 [weight=4.0]   
+//Node128 -- Node41 [weight=6.0]   
+//Node128 -- Node114 [weight=7.0]   
+//Node128 -- Node121 [weight=1.0]   
+Node128 -- Node129 [weight=1.0]   
+Node128 -- Node132 [weight=2.0]
+
+/* Node */
+//Node129 -- Node10 [weight=1.0]   
+//Node129 -- Node112 [weight=3.0]   
+//Node129 -- Node121 [weight=5.0]   
+//Node129 -- Node128 [weight=1.0]
+
+/* Node */
+//Node130 -- Node45 [weight=1.0]   
+//Node130 -- Node68 [weight=7.0]   
+Node130 -- Node131 [weight=3.0]
+
+/* Node */
+//Node131 -- Node68 [weight=6.0]   
+//Node131 -- Node130 [weight=3.0]
+
+/* Node */
+//Node132 -- Node31 [weight=7.0]   
+//Node132 -- Node124 [weight=6.0]  
+//Node132 -- Node128 [weight=2.0]
+
+/* Node */
+//Node133 -- Node45 [weight=2.0]   Node133 -- Node68 [weight=2.0]
+}

@@ -1,0 +1,19 @@
+{% extends "site/base.html" %}
+
+{% block title %}Cidades{% endblock %} 
+
+{% block content %}
+	{% if graphs %}
+		<h1>Selecione uma cidade:</h1>
+    	<ul>
+    	{% for graph in graphs %}
+        	<li><a href="/graphs/{{ graph.id }}/">{{ graph.name }}</a></li>
+    	{% endfor %}
+    	</ul>    	
+	{% else %}
+    	<p>Nenhuma cidade cadastrada.</p>    	
+	{% endif %}
+{% endblock %}
+
+{% block content-related %}
+{% endblock %}

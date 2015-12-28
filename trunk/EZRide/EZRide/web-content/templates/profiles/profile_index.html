@@ -1,0 +1,23 @@
+{% extends "site/base.html" %}
+
+{% block title %}Painel de Controle{% endblock %} 
+
+{% if user.is_active %}
+{% block content %}
+	<h1>Painel de Controle:</h1>
+	<p><a href="/profiles/edit/">Editar</a> dados cadastrais.</p>
+	{% if subgraphs %}
+		<p>Editar Rotas:</p>
+    	<ul>
+    	{% for subgraph in subgraphs %}
+        	<li><a href="/graphs/{{ subgraph.graph_id }}/edit/{{ subgraph.id }}/">{{ subgraph.name }}</a></li>        	
+    	{% endfor %}    	
+    	</ul>    	    	
+	{% else %}
+    	<p>Nenhuma rota cadastrada.</p>
+	{% endif %}
+{% endblock %}
+{% endif %}
+
+{% block content-related %}
+{% endblock %}
